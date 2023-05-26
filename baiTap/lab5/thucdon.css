@@ -1,0 +1,29 @@
+*{
+    /* padding: 0; */
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.container-content
+{
+    text-align: center;
+}
+ol li
+{
+    font-family: "Courier New", Courier, monospace;
+    /* margin-left: 0 !important; */
+    text-align: left !important;
+    padding-top: 1rem;
+    font-size: 16px;
+}
+.list_menu
+{
+  display: flex;
+  justify-content: center; 
+  /* flex-direction: row; */
+}
+h4
+{
+    padding-top: 1rem;
+    font-family: Florence, cursive;
+    font-size: 20px;
+}

@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.form{
+    margin-left: 30%;
+    background-image: linear-gradient(0,rgb(238, 238, 244),white);
+    width: 35%;
+
+}
+.container{
+    padding: 10px;
+}
+#input{
+    padding: 10px;
+}
+div input{
+    height: 25px;
+    padding : 3px;
+    margin : 5px;
+    border-radius: 4px;
+}
+.email{
+    width: 69%;
+}
+.password{
+    width: 69%;
+}
+div select{
+    width: 15%;
+    height: 30px;
+}
+.container-select{
+    padding-top: 8px;
+}
+div p  {
+
+    font-weight: 500;
+    font-family: serif;
+
+}
+div a{
+    text-decoration: none;
+    font-size: 15px;
+}
+.radio{
+    font-weight: 500;
+    font-family: serif;
+    font-size: 17px;
+}
+.note  {
+    padding:10px 0px 10px 0px ;
+    font-weight: 500;
+    font-family: serif;
+
+}
+div button{
+    background-color: rgb(23, 119, 55); 
+    color: azure;
+    text-align: center;
+    padding: 10px;
+    width: 180px;
+    border-radius: 4px;
+    font-family: Lucida Sans Unicode
+    Lucida Grande;
+    font-size: 20px;
+}

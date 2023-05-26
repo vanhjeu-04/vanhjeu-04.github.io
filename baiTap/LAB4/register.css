@@ -1,0 +1,61 @@
+h4{
+    text-align: center;
+    font-size: 25px;
+}
+.container{
+    text-align: center;
+ 
+    /* border-radius: 10px; */
+}
+.input-text{
+    width: 30%;
+    padding: 10px;
+    border-radius: 3px;   
+}
+.password1{
+    width: 30%;
+    padding: 10px;
+    border-radius: 3px; 
+    margin-top: 15px;  
+}
+.password2{
+    width: 30%;
+    padding: 10px;
+    border-radius: 3px; 
+    margin-top: 15px;  
+}
+.email{
+    width: 30%;
+    padding: 10px;
+    border-radius: 3px; 
+    margin-top: 15px;  
+
+}
+.register-button{
+    width: 32%;
+    padding: 10px;
+    border-radius: 3px; 
+    margin-top: 30px;
+    background-color: red;
+    color: white;
+}
+select{
+    width: 32%;
+    padding: 10px;
+    border-radius: 3px; 
+    margin-top: 40px;
+}
+.checkbox{
+    text-align: center  ;
+    width: 95%;
+    padding: 10px; 
+    margin-top: 30px;
+
+}
+.checkbox > a{
+    text-decoration: none;
+}
+.include-full{
+    background-color: rgb(209, 202, 202);
+    
+}

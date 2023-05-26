@@ -1,0 +1,74 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+h4{
+    padding-top: 80px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.text1{
+    padding-top: 40px;
+    text-align: center;
+}
+.text{
+    padding: 10px;
+    width: 40%;
+    border-radius: 5px;
+}
+#password{
+    padding: 10px;
+    width: 40%;
+    border-radius: 5px;
+    
+}
+.login{
+    border-radius: 5px;
+    margin-top: 40px;
+    padding: 10px;
+    color: aliceblue;
+    background-color: rgb(227, 18, 18);
+    text-align: center;
+    width: 42.2%;
+    /* left: 50%; */
+    transform: translate(68%, 50%);
+}
+
+.hr1{
+    display: inline-block;
+    margin-top: 45px;
+    width: 16.7%;
+    transform: translate(180%, 3%);
+}
+.hoac{
+    display: inline;
+    text-align: center;
+    margin-left: 31%;
+}
+.hr2{
+    display: inline-block;
+    margin-top: 35px;
+    width: 17%;
+    transform: translate(3%, 3%);
+}
+.taotk{
+    border-radius: 5px;
+    margin-top: 0px;
+    padding: 10px;
+    color: aliceblue;
+    background-color: rgb(12, 12, 12);
+    text-align: center;
+    width: 42.2%;
+    transform: translate(68%, 50%);
+}
+.quenmatkhau{
+    text-align: center;
+    padding-top: 80px;
+    color: aqua;
+   
+}
+
+
+
