@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Tillana&display=swap');
+:root{
+    --primary--color : #f2726a
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(45deg, #00853e, #50c878);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Tillana', cursive;
+    color: azure;
+}
+.card{
+    background-color: #242628;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+img{
+    object-fit: cover;
+    width: 150px;
+    height: 120px;
+    object-position: center;
+}
+.card-img{
+    width: 120px;
+    height: 120px;
+    border: 3px solid var(--primary--color);
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 25px auto;
+}
+.card p {
+    color: var(--primary--color);
+}
+.social{
+    margin: 25px 0 ;
+}
+.social a {
+    color: aliceblue;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+.card button{
+    width: 150px;
+    height: 40px;
+    border: 1px solid var(--primary--color);
+    background: transparent;
+    color: white;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.card button:hover{
+    background-color: var(--primary--color);
+    box-shadow: 0 0 10px rgb(234, 70, 70);
+}
+.fa{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    padding: 12px;
+    border-radius: 50%;
+    background-color: #7e7777;
+    box-shadow: 0 0 4px 2px;
+    transition: .3s ;
+
+}
+.icon1:hover{ color: #6051ff;}
+.icon2:hover{ color: #e1e726;}
+.icon3:hover{ color: #db0cc3;}
+.icon4:hover{ color: #e91e5e;}
+
+.card-img:hover{
+   transform: scale(1.15);
+}
+img:hover{
+    position: transform 5s ease-in-out;
+}
