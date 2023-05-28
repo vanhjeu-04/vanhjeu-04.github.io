@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Tillana', cursive;
+   
+}
+body{
+    background-color: #f2f2f2;
+}
+html{
+    scroll-behavior: smooth;
+}
+div a i {
+    color: rgb(43, 95, 199);
+    font-size: large;
+    
+}
+div a {
+    text-decoration: none;
+    color: #dee4e4;
+    text-align: center;
+}
+.khampha{
+    color:  rgb(119, 70, 70);
+}
+.img{
+    width: 100px;
+    height: auto;
+}
+
+.bg-header{
+    position: fixed;
+    z-index: 100;
+    background-image: linear-gradient(0 , #fe6232, #f53f2d);
+}
+
+span{
+    /* margin: 10px ; */
+    font-weight: 600;
+    color: rgb(167, 45, 45);
+    
+}
+.link-social{
+    scroll-behavior: smooth;
+}
+.link-social :hover {
+    color: rgb(251, 250, 250);
+    transform: scale(1.2) ;
+}
+.nation{
+    width: 40px;
+    height: auto;
+}
+.login{
+    padding-left: 270px;
+    padding-top: 20px;
+    
+}
+.search{
+    /* padding-left: 220px; */
+    padding-top: 35px;
+    text-align: center;
+    
+}
+div span a button{
+    font-weight: 600;
+    color: rgb(167, 45, 45);
+    font-style: oblique;
+    border: none ;
+    background-color: #f8f9fa;
+}
+.text1{
+    font-style: italic;
+}
+.tex2{
+    color: #f8f9fa;
+}
+.lable-select{
+    margin-left: 5px;
+    font-weight: 600;
+    color: rgb(167, 45, 45);
+    font-style: oblique;
+}
+.carosel-img{
+    width: auto;
+    height: auto;
+}
+.carousel-item img {
+    width: 300px;
+    height: 600px;
+    opacity: 0.8;
+    object-fit : cover;
+}
+.product-name{
+    font-weight: 700;
+    text-align: center;
+    
+}
+form{
+    border: 1px solid rgb(179, 174, 174);
+    padding: 20px;
+    border-radius: 7px;
+}
+div img {
+    border-radius: 3px;
+}
+.section-select :hover{
+    color: rgb(235, 72, 72);
+    transform: scale(1.2) ;
+    cursor: pointer;
+}
+section{
+    margin: 30px;
+
+}
+hr{
+    border: 1px solid rgb(173, 151, 151);
+    
+}
+footer{
+    color: #f8f9fa !important;
+}
+.mx-2{
+    color: rgb(167, 45, 45);
+}
+.card-link a{
+    color: black;
+}
+/* .card-link a :hover ::after {
+    color: aqua;
+
+} */
+.checked{
+    color: rgb(244, 196, 6);
+}
+.cmt{
+    color: #5a5b57;
+    font-size: 15px;
+    
+}
+.card-body:hover{
+    cursor: pointer;
+    background-color: #dadada;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+/* .card-body img:hover{
+    transform: scale(1.1);
+} */
+.card-body img{
+    transition: transform 0.3s ease-in-out;
+}
+.tabbav-and-menu{
+    position: fixed;
+    z-index: 80;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+.container-header{
+    margin-top: 10%;
+}
+.thongke-section{
+    text-align: left;
+    border:  1px solid rgb(203, 199, 199);
+    padding: 20px;
+    border-radius: 7px;
+    padding-bottom: 90px;
+    
+}
+.thongke-section{
+    transition: transform 0.4s ease-in-out;
+}
+.thongke-section:hover{
+    transform: scale(1.07);
+}
+
+.thongke-section > div {
+    padding-top: 20px;
+}
+.apply-foody{
+    margin-top: 43px;
+}

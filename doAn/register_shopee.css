@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Tillana', cursive;
+    
+}
+.register_h3{
+    padding-left: 12px;
+}
+
+.register{
+    margin: 100px auto;
+    border: 1px solid rgb(216, 213, 213);
+    width: 40%;
+    border-radius: 5px;
+    color: aliceblue;
+}
+.register_content{
+    padding: 30px;
+}
+.container_header{
+    display: flex; 
+    align-items: center;
+    justify-items: space-between; 
+}
+.register_span{
+    padding-left: 70%;
+    font-weight: 600;
+    color: rgb(235, 48, 48);
+    cursor: pointer;
+    font-size: 18px;
+}
+div > input{
+    padding: 10px;
+    margin: 5px 0 15px 0 ;
+    width: 95%;
+    /* outline: none; */
+    /* border-color:  #888; */
+}
+.container_input{
+    padding-top: 40px;
+}
+.container_note_inform{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px; 
+}
+.note{
+    text-decoration: none;
+    color: rgb(232, 50, 50);
+    font-weight: 500; 
+    font-size: 14px; 
+}
+
+.container_btn_form{
+    padding-top: 70px;
+    padding-left: 300px;
+    display: flex;
+}
+button > a{
+    text-decoration: none;
+}
+.btn_back{
+    width: 120px;
+    padding : 5px;
+    border: rgb(112, 94, 94);
+    background-color:white;
+}
+.btn_back:hover{
+    background: rgba(0 , 0 , 0 , 0.15);
+    transform: scale(1.1);
+    border-radius: 3px;
+}
+.btn_back{
+    transition: transform 0.3 ease-in-out;
+}
+
+.btn_register{
+    width: 120px;
+    height: 30px;
+    padding : 6px;
+    background-color: rgb(233, 37, 37);
+    border: rgb(112, 94, 94);
+    color: white;
+
+}
+.btn_register:hover{
+    color: #c2b198;
+    background-color: crimson;
+}
+.container_connect_social{
+    /* background-color:#c2b198; */
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 9px;
+    padding-bottom: 20px;
+}
+.btn_with_icon1{
+    background-color: rgb(45, 45, 119);
+    color: white;
+    padding: 7px;
+    font-weight: 500; 
+    font-size: 14px; 
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+div a i {
+    padding-right: 4%;
+    font-size: 17px;
+}
+
+.btn_with_icon2{
+    background-color: white;
+    color: rgb(49, 26, 26);
+    padding: 5px;
+    font-weight: 500; 
+    font-size: 14px; 
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+input:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    border-radius: 5px;
+}
+.input:hover{
+    transition: transform 0.3 ease-in-out;
+}
+body{
+    background-image: url(images/poster3.jpg);
+    background-repeat: no-repeat;
+    background-size:  cover;
+}
+
+form:hover{
+    border-color: azure ;
+    transform: scale(1.1);  
+}
+form{
+    /* background-color: #c2b198; */
+    transition: transform 0.4s ease-in-out;
+}
